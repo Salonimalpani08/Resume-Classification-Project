@@ -1,3 +1,4 @@
+nltk
 pickle-mixin==1.0.2
 streamlit-option-menu==0.3.2
 aiobotocore==2.5.0
