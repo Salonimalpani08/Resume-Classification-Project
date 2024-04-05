@@ -126,7 +126,7 @@ predicted = []
 predicted = []
 
 # Load the trained model and vectorizer
-with open('mnb_model.pkl', 'rb') as f:
+with open('Deployment/mnb_model.pkl', 'rb') as f:
     model = pk.load(f)
 
 with open('bow_vectorizer.pkl', 'rb') as f:
