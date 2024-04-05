@@ -39,7 +39,7 @@ def img_to_html(img_path):
     )
     return img_html
 
-st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('curriculum-vitae.png')+"</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: grey;'>"+img_to_html('Deployment/curriculum-vitae.png')+"</p>", unsafe_allow_html=True)
             
 
 st.markdown("<h2 style='text-align: center; color: yellow;'>Welcome to Resume Classification App </h2>", unsafe_allow_html=True)
