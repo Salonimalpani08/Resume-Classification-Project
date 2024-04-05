@@ -129,7 +129,7 @@ predicted = []
 with open('Deployment/mnb_model.pkl', 'rb') as f:
     model = pk.load(f)
 
-with open('bow_vectorizer.pkl', 'rb') as f:
+with open('Deployment/bow_vectorizer.pkl', 'rb') as f:
     cv = pk.load(f)
 
 upload_file = st.file_uploader('Upload Your Resumes', type=['docx', 'pdf'], accept_multiple_files=True)
